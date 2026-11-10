@@ -1,0 +1,24 @@
+[project]
+name = "keck-prysm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "astropy>=8.0.2",
+    "hcipy>=0.7.1",
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "prysm",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+keck-prysm = "keck_prysm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+prysm = { path = "/Users/kderby/src/prysm", editable = true }
