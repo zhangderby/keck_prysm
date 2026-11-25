@@ -546,7 +546,7 @@ requires-dist = [
     { name = "hcipy", specifier = ">=0.7.1" },
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "matplotlib", specifier = ">=3.11.2" },
-    { name = "prysm", editable = "/Users/kderby/src/prysm" },
+    { name = "prysm", editable = "/home/kderby/src/prysm" },
     { name = "tqdm", specifier = ">=4.70.1" },
 ]
 
@@ -992,7 +992,7 @@ wheels = [
 [[package]]
 name = "prysm"
 version = "0.22"
-source = { editable = "/Users/kderby/src/prysm" }
+source = { editable = "/home/kderby/src/prysm" }
 dependencies = [
     { name = "numpy" },
     { name = "scipy" },

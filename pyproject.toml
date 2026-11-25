@@ -21,4 +21,4 @@ requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
 
 [tool.uv.sources]
-prysm = { path = "/Users/kderby/src/prysm", editable = true }
+prysm = { path = "/home/kderby/src/prysm", editable = true }
