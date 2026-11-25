@@ -13,3 +13,4 @@ wheels/
 *.png
 *.mp4
 *.fits
+**/.DS_Store
